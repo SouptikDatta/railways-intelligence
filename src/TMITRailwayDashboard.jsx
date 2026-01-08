@@ -44,7 +44,7 @@ import {
   Award,
 } from "lucide-react";
 import railwayDatabaseService from "../railway-database-service.js";
-import * as DataProcessing from "./dataProcessing";
+import * as DataProcessing from "./Dataprocessing.js";
 
 export default function TMITRailwayDashboard() {
   // State management

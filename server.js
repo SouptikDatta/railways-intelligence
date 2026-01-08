@@ -3,7 +3,7 @@ import cors from "cors";
 import databaseService from "./database-service.js";
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Enable CORS for all origins (restrict in production)
 app.use(cors());

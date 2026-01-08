@@ -5,8 +5,8 @@
  */
 
 const API_CONFIG = {
-  baseUrl: "http://localhost:3001",
-  timeout: 60000, // 60 seconds for database queries
+  baseUrl: import.meta.env.VITE_API_BASE_URL || "http://localhost:3001",
+  timeout: 60000,
 };
 
 class RailwayDatabaseService {
